@@ -1,6 +1,7 @@
 "use client";
 import images from "./images";
 import { CirclePlay, GraduationCap, Users, Trophy } from "lucide-react";
+
 export default function Header() {
   return (
     <header className="fixed top-0 left-0 z-50 w-full border-b border-white/10 bg-[#111216]/90 backdrop-blur-xl">
@@ -52,7 +53,8 @@ export default function Header() {
             href="#demo"
             className="group flex min-h-[48px] items-center gap-3 rounded-full bg-[#9bff35] py-2 pl-2 pr-5 text-sm font-bold text-[#14200b] shadow-[0_0_22px_rgba(155,255,53,0.2)] transition hover:bg-[#b0ff66]"
           >
-            <span>Start my free demo</span>
+            <span> Start my free demo </span>
+            
 
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#17231a] text-xl text-[#9bff35] transition group-hover:translate-x-1">
               →

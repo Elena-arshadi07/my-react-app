@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { Monitor, Target, Sliders, LogIn, ArrowRight } from 'lucide-react';
 

@@ -1,3 +1,4 @@
+"use client";
 import Header from './_components/Header';
 import HeroSection from './_components/HeroSection';
 import ChartSection from './_components/ChartSection';
@@ -13,6 +14,8 @@ import DemoSteps from './_components/DemoSteps';
 import FaqSection from './_components/FaqSection';
 import CTABanner from './_components/CTABanner';
 import Footer from './_components/Footer';
+
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0d1210] text-white">
@@ -31,6 +34,9 @@ export default function Home() {
       <FaqSection />
       <CTABanner />
       <Footer />
+    
+ 
+    
     </main>
   );
 }

@@ -1,3 +1,4 @@
+"use client";
 const images={
     award1:"/images/mt4-icon.webp",
     award2:"/images/mt5-icon.webp",

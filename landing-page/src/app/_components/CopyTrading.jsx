@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { Users, Layers, Check, AlertTriangle, ArrowRight } from 'lucide-react';
 

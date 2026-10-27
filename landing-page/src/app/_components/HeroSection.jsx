@@ -1,6 +1,7 @@
+"use client";
 import images from "./images";
-import { TrendingUp} from "lucide-react";
-import { Wallet} from "lucide-react";
+import { TrendingUp } from "lucide-react";
+import { Wallet } from "lucide-react";
 import { ShieldCheck, Smartphone, Trophy, Download, AlertTriangle } from 'lucide-react';
 
 export default function HeroSection() {
@@ -29,7 +30,7 @@ export default function HeroSection() {
 
   return (
     <main className="relative isolate min-h-screen overflow-hidden pt-49 bg-[#101216] text-white">
-      {/* Background lights */}
+  
       <div 
         className="pointer-events-none absolute right-[-10%] top-[-100px] h-[420px] w-[420px] rounded-full blur-[100px] inset-0 -z-10 overflow-hidden"
         style={{

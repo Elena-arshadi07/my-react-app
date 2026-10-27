@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { ArrowRight, Check, Award, Headphones, Star, AlertTriangle } from 'lucide-react';
 

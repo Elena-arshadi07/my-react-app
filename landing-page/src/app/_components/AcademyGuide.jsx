@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { GraduationCap, BookOpen, BarChart2, ShieldAlert, Navigation, ArrowRight } from 'lucide-react';
 

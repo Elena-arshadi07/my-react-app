@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { Monitor, Cpu, CheckCircle2, Download } from 'lucide-react';
 import images from './images.js';
