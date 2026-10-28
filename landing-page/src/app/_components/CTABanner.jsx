@@ -53,7 +53,7 @@ export default function CtaBannerSection() {
           </a>
         </div>
 
-        {/* Feature Badges (کادرهای ویژگی بدون رنگ پس‌زمینه و فقط با بوردر) */}
+     
         <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
           {features.map((item, index) => (
             <div 
@@ -66,7 +66,7 @@ export default function CtaBannerSection() {
           ))}
         </div>
 
-        {/* Risk Warning Box (باکس هشدار بدون رنگ پس‌زمینه و فقط با بوردر) */}
+       
         <div className="flex items-start gap-3 border border-white/10 rounded-2xl p-4 md:p-5 text-left text-xs text-gray-400 leading-relaxed max-w-2xl mx-auto w-full">
           <AlertTriangle className="w-4 h-4 text-yellow-500 shrink-0 mt-0.5" />
           <span>
