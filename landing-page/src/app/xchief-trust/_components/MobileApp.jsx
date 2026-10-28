@@ -1,5 +1,6 @@
 import React from 'react';
 import { Smartphone, Star, Download } from 'lucide-react';
+import images from './images';
 
 export default function MobileAppSection() {
   return (
